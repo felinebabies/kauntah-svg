@@ -5,7 +5,7 @@
   "author": "3846masa <3846masahiro+git@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@vercel/node": "^1.7.4",
+    "@vercel/node": "^2.1.0",
     "mongodb": "^3.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

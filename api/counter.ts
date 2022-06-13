@@ -1,10 +1,10 @@
 import { URLSearchParams } from 'url';
-import { NowRequest, NowResponse } from '@vercel/node';
+import { VercelRequest, VercelResponse } from '@vercel/node';
 
 import { renderSVG } from './helpers/render_svg';
 import { fetchCount } from './helpers/fetch_count';
 
-async function hooks(req: NowRequest, res: NowResponse) {
+async function hooks(req: VercelRequest, res: VercelResponse) {
   const { headers, query } = req;
   const searchParams = new URLSearchParams(query);
 
